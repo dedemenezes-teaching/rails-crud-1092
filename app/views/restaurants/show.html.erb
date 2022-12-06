@@ -1,0 +1,8 @@
+<h1><%= @restaurant.name %></h1>
+<p>Find us at <%= @restaurant.address %></p>
+<p>Rating: <%= @restaurant.rating %></p>
+
+
+<%= link_to 'Back to all restaurants', restaurants_path %>
+<%= link_to "Edit #{@restaurant.name}", edit_restaurant_path(@restaurant) %>
+<%= link_to "Delete #{@restaurant.name}", restaurant_path, data: { turbo_method: :delete } %>
