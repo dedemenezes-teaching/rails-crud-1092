@@ -1,24 +1,5 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+3. as an user I can create a restaurant              => Create
+1. as an user I can see all restaurants              => Read
+2. as an user I can see details about one restaurant => Read
+4. as an user I can update a restaurant              => Update
+5. as an user I can delete a restaurant              => Delete
